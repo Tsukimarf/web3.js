@@ -50,4 +50,4 @@ jobs:
             - run: tar -xf /tmp/web3-${{ matrix.node }}.js.tar.gz -C ./
             - run: |
                   yarn test:blackbox:${{ matrix.backend }}:${{ matrix.mode }}
-              shell: bash
+              shell: bash 
